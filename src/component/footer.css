@@ -1,0 +1,167 @@
+footer{
+    height: 295px;
+    width: 100%;
+    background-color: #f0e1e2;
+}
+.footer{
+    height:240px;
+    width: 100%;
+}
+
+footer > h2 {
+    font-size: 35px;
+    margin-left: 5%;
+}
+.company{
+    height: 200px;
+    width: 10%;
+    float: left;
+    margin-left:5%;
+    line-height: 33px;
+    list-style: none;
+}
+.add-rest{
+    float: left;
+    height: 150px;
+    width: 10%;
+    line-height: 35px;
+    margin-left: 3%;
+}
+.for-you{
+    float: left;
+    height: 200px;
+    width: 10%;
+    line-height: 35px;
+    margin-left: 3%;
+}
+li{
+    cursor: pointer;
+}
+.li{
+    cursor: default;
+    font-size: 18px;
+    font-weight: Bold;
+}
+.fa {
+    padding: 13px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #d61555;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #c01111;
+    color: white;
+}
+
+
+/* -----------Media Query---------- */
+
+@media screen and (max-width : 1330px) 
+{
+    .row {
+        margin-left: 31%;
+        margin-top: -11%;
+    }
+    .dropdown {
+        margin-top: 10%;
+    }
+    .btn{
+        width: 220px;
+    }
+} 
+
+
+@media screen and (max-width:1107px){
+    .row {
+        margin-left: 28%;
+        margin-top: -13%;
+    }
+}
+
+
+@media screen and (max-width:979px){
+    .row {
+        margin-left: 27%;
+        margin-top: -15%;
+    }
+
+    .add-rest{
+        width: 14%;
+    }
+
+    p{
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+}
+
+
+@media screen and (max-width:771px){
+
+    .row {
+        margin-left: 26%;
+        margin-top: -20%;
+    }
+
+    .btn{
+        width: 180px;
+    }
+
+    .food_img > h3{
+        font-size: 22px;
+    }
+
+    .food_img > p{
+        margin-left: 7%;
+        margin-top: -3%;
+    }
+
+    .collection{
+        width: 85%;
+    }
+    
+    .place-list{
+        width: 44%;
+    }
+
+    footer{
+        margin-top: 47%;
+    }
+
+    .company{
+        width: 15%;
+    }
+
+    .add-rest{
+        width: 16%;
+    }
+
+    .links{
+        margin-left: 60%;
+    }
+    .fa-instagram{
+        margin-left: 7%;
+    }
+
+    p {
+        margin-top: -2%;
+        font-size: 15px;
+        margin-left: 5%;
+    }
+}
